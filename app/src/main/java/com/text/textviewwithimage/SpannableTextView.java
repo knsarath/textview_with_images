@@ -12,20 +12,20 @@ import android.widget.TextView;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TextViewWithImages extends TextView {
+public class SpannableTextView extends TextView {
 
     private static final String IMAGE_TAG = "[img src=%s/]";
 
-    public TextViewWithImages(Context context, AttributeSet attrs, int defStyle) {
+    public SpannableTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
     }
 
-    public TextViewWithImages(Context context, AttributeSet attrs) {
+    public SpannableTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public TextViewWithImages(Context context) {
+    public SpannableTextView(Context context) {
         super(context);
     }
 

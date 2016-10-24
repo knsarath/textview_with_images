@@ -25,7 +25,7 @@
                       android:background="@color/white"
                       android:orientation="vertical">
 
-            <com.text.textviewwithimage.TextViewWithImages
+            <com.text.textviewwithimage.SpannableTextView
                 android:id="@+id/t1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
