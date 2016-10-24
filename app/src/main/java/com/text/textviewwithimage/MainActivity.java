@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
         Car car = new Car("Renault", "Hatch Back", "25.2 kmpl  Petrol");
 
         textView1.setText(car.getName() +
-                SpannableTextView.addImage(this, R.drawable.vertical_line) +
+                SpannableTextView.addImage(this, R.drawable.line) +
                 car.getType() +
-                SpannableTextView.addImage(this, R.drawable.vertical_line) +
+                SpannableTextView.addImage(this, R.drawable.line) +
                 car.getMilage());
 
     }
